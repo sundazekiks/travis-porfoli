@@ -50,7 +50,7 @@ export const Profile = ({ resumeOpen }: Resume) => {
                         {/* Social Links */}
                         <div className='flex gap-2'>
                             <a
-                                href="#"
+                                href="https://www.facebook.com/"
                                 className="w-10 h-10 flex items-center justify-center border border-gray-400 text-gray-600 rounded-full hover:border-black hover:text-black hover:scale-110 transition-all duration-300"
                                 aria-label="LinkedIn"
                             >
