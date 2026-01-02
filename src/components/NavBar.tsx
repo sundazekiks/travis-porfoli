@@ -8,7 +8,7 @@ export const NavBar = () => {
 
     return (
         <nav className="p-4 flex justify-around items-center">
-            <h1 className="text-xl font-bold">TA</h1>
+            <h1 className="text-xl font-bold">T-A</h1>
             <div className="flex gap-5 justify-center items-center">
                 <NavLink to='/' className={navLink}>Home</NavLink>
                 <NavLink to='/contact' className={navLink}>Contact</NavLink>
