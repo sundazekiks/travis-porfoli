@@ -36,9 +36,10 @@ export const Profile = ({ resumeOpen }: Resume) => {
                     </p>
 
                     {/* Icons Section */}
-                    <div onClick={resumeOpen} className='mt-4 flex items-center justify-between border-t border-gray-200 pt-4 animate-slideIn' style={{ animationDelay: '0.3s' }}>
+                    <div className='mt-4 flex items-center justify-between border-t border-gray-200 pt-4 animate-slideIn' style={{ animationDelay: '0.3s' }}>
                         {/* Resume Link */}
                         <a
+                            onClick={resumeOpen}
                             href="#"
                             className="group/resume flex items-center gap-2 px-4 py-2 border border-black text-black rounded-full hover:bg-black hover:text-white transition-all duration-300"
                             aria-label="Download Resume"
