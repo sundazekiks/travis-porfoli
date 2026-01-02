@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+
+@theme{
+
+  --color-subColor: #4B5563;
+  --font-Inter: "Inter", sans-serif;
+  --font-Roboto: "Roboto", sans-serif;
+  --text-head: 1.6rem;
+  --text-IconSize: 1.5rem;
+}
